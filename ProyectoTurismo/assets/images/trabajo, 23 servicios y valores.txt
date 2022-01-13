@@ -1,0 +1,380 @@
+////////////////////////primero, muestros valores////////
+<style>
+  .titulo_valores_empresa {
+
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 30px;
+    margin-bottom: 70px;
+    color: #080b33;
+
+
+  }
+
+  .titulo_valores_empresa span {
+
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+
+  }
+
+  .titulo_valores_empresa span::after {
+    background-color: #0c1146;
+    content: '';
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    margin: -25px 0%;
+
+  }
+
+
+  .imagen_valores_empresa {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+  }
+
+  .imagen_valores_empresa img {
+    width: 265px;
+  }
+
+  .nuestros_valores_empresa {
+    margin-left: 30px;
+  }
+
+  .row_general_valores {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #e1dfdf;
+    overflow: hidden;
+  }
+
+  .row_general_valores h1 {
+    font-size: 17px;
+    margin-top: 7px;
+  }
+
+  .row_iconos_valores_empresa {
+    padding-right: 0%;
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+
+  .row_iconos_valores_empresa i {
+
+    width: 55px;
+    color: black;
+    float: left;
+    font-size: 30px;
+
+  }
+
+  .contenedor__iconos__valores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 794px) {
+    .contenedor__iconos__valores {
+      flex-direction: column;
+    }
+
+    .tittle__valores {
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .nuestros_valores_empresa {
+      margin-left: 0px;
+      width: 100%;
+    }
+
+    .row_iconos_valores_empresa {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .row_iconos_valores_empresa i {
+      font-size: 20px;
+      width: 40px;
+    }
+  }
+</style>
+
+
+
+<div class="row_general_valores">
+  <div class="row">
+    <div class="col-4">
+
+    </div>
+    <div class="col-6 tittle__valores">
+      <h1 class="titulo_valores_empresa"><span>Nuestros valores</span></h1>
+    </div>
+  </div>
+  <div class="contenedor__iconos__valores">
+    <div class="imagen_valores_empresa">
+      <img src="assets/images/personas.png" class="img-fluid" alt="">
+    </div>
+    <div class="nuestros_valores_empresa">
+
+      <div class="row row_iconos_valores_empresa ml-0 mr-0">
+        <div class="col">
+          <i class="fas fa-lock"></i>
+          <h1>Confidencialidad</h1>
+        </div>
+        <div class="col">
+          <i class="fas fa-file-signature"></i>
+          <h1>Compromiso</h1>
+        </div>
+
+      </div>
+      <div class="row row_iconos_valores_empresa ml-0 mr-0">
+        <div class="col">
+          <i class="far fa-dot-circle"></i>
+          <h1>Objetividad</h1>
+        </div>
+        <div class="col">
+
+          <i class="fas fa-award"></i>
+          <h1>Calidad</h1>
+        </div>
+      </div>
+      <div class="row row_iconos_valores_empresa ml-0 mr-0">
+        <div class="col">
+          <i class="fas fa-balance-scale "></i>
+          <h1>Ética</h1>
+        </div>
+        <div class="col">
+          <i class="far fa-handshake"></i>
+          <h1>Respeto</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+////////////////////////fin, muestros valores////////
+
+
+////////////////////////comienso, muestros servicios////////
+<!-- COMIENZO BANNER -->
+<section class="  banner ">
+  <div class="img__banner text-center ">
+    <div class="texto__banner container row ">
+      <div class="col ">
+        <div class="">
+          <h1 style="font-weight: 750;">CONSULTORA TALENTO HUMANO PERÚ</h1>
+        </div>
+        <div class="dmdivider">
+          <hr style=" color: #001845; width: 20%; height: 3px;">
+        </div>
+      </div>
+      <p class="">ESPECIALISTAS EN HEADHUNTING, RECLUTAMIENTO Y ELECCÓN DE PERSONAL, ASSESSMENT CENTER Y
+        EVALUACIONES PSICOLABORALES</p>
+      <p class="">ESTAMOS EN BUSQUEDA DEL TALENTO LABORAL</p>
+    </div>
+    <div class="informacion m-5">
+      <a href="#" class="btn__informacion">Solicitar información </a>
+    </div>
+    <div class="icon__banner">
+      <a href="#"><i class="fas fa-chevron-circle-down icon__banner"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- FIN BANNER -->
+
+
+<!-- Reclutamiento y Selección de Personal -->
+
+<!-- FIN Reclutamiento y Selección de Personal -->
+
+
+
+<!-- Headhunting -->
+
+<!-- FIN Headhunting -->
+
+
+<!--INICIO SECCION NUESTRAS CARACTERISTICAS-->
+<style>
+  .container_servicios {
+    border: 2px yellow solid;
+    width: 100%;
+    margin: 0px 0px;
+
+
+  }
+
+  .row_nuestros_servicios {
+    border: 2px green solid;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    margin-left: 0px;
+
+    background-color: #126c8e;
+
+
+  }
+
+  .letras_nuestro_servicio {
+    border: 1px deeppink solid;
+    margin-left: 0px;
+  
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+  }
+
+  .letras {
+
+    border: 2px pink solid;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+  }
+
+  .letras h1 {
+
+    font-weight: 600;
+    font-size: 40px;
+    color: #ffffff;
+    border: 2px blue solid;
+    position: relative;
+    padding-bottom: 10px;
+    width: 80%;
+  }
+
+  .letras h1::after {
+    background-color: #0c1146;
+    content: '';
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    margin-bottom: 0;
+
+  }
+
+
+  .img_nuestro_servicio {
+    border: 2px orange solid;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .col_logo_nuestros_servicios {
+    border-color: 2px red solid;
+
+  }
+
+  .col_logo_nuestros_servicios i {
+
+    background-color: #ffffff;
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 20px;
+
+  }
+
+  .col_logo_nuestros_servicios h1 {
+
+    color: #ffffff;
+    font-size: 20px;
+
+  }
+
+  @media (max-width: 1159px) {
+    .letras h1 {
+      font-weight: 600;
+      font-size: 30px !important;
+    }
+
+  }
+
+  @media (max-width: 763px) {
+
+    .row_nuestros_servicios {
+      flex-direction: column;
+    }
+
+    .letras h1 {
+      font-weight: 600;
+      font-size: 30px !important;
+      text-align: center;
+    }
+
+  }
+
+  @media (max-width: 330px) {
+
+    .img_nuestro_servicio {
+      border: 2px orange solid;
+      font-size: 55px;
+      text-align: center;
+      margin-left: 0px;
+    }
+
+    .letras h1 {
+      font-weight: 600;
+      font-size: 20px !important;
+      text-align: center;
+    }
+
+  }
+</style>
+<div class=" container_servicios">
+  <div class="row row_nuestros_servicios">
+    <div class="col letras_nuestro_servicio">
+      <div class="container letras">
+        <h1> NUESTRAS CARACTERISTICAS</h1>
+      </div>
+    </div>
+
+    <div class="col img_nuestro_servicio">
+      <div class="row">
+        <div class="col col_logo_nuestros_servicios">
+          <i class="fas fa-medal"></i>
+          <h1>calidad</h1>
+        </div>
+        <div class="col col_logo_nuestros_servicios">
+          <i class="fas fa-sort-amount-up-alt"></i>
+          <h1>eficiencia</h1>
+        </div>
+        <div class="col col_logo_nuestros_servicios">
+          <div></div>
+          <i class="fas fa-shipping-fast"></i>
+          <h1>rapides</h1>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+</div>
+
+
+<!--FIN SECCION NUESTRAS CARACTERISTICAS-->
+////////////////////////fin, muestros servicios////////
